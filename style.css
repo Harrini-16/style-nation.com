@@ -120,7 +120,6 @@ body {
 .new-arrival-container {
     position: relative;
     flex-basis: 20%;
-    left: 30px;
     margin: 15px;
 }
 
@@ -251,6 +250,10 @@ body {
     }
 
     .service-container-2 {
+        flex-direction: column;
+    }
+
+    .contact-container{
         flex-direction: column;
     }
 }
